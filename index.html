@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synergy Agile Coaching - Expert Agile Transformation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Apply Inter font globally */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Simple animation for buttons */
+        .btn-hover-effect {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .btn-hover-effect:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+    <script>
+      // Optional: Add any JS needed later, e.g., for mobile menu toggle
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold text-teal-600">Synergy Agile</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-gray-600 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                    <a href="#coaches" class="text-gray-600 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium">Our Coaches</a>
+                    <a href="#contact" class="text-gray-600 hover:text-teal-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    <a href="#booking" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 rounded-md text-sm font-medium btn-hover-effect">Book Free Call</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button p-2 rounded-md text-gray-600 hover:text-teal-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu hidden md:hidden pb-3 space-y-1">
+            <a href="#services" class="block text-gray-600 hover:bg-gray-100 hover:text-teal-600 px-3 py-2 rounded-md text-base font-medium">Services</a>
+            <a href="#coaches" class="block text-gray-600 hover:bg-gray-100 hover:text-teal-600 px-3 py-2 rounded-md text-base font-medium">Our Coaches</a>
+            <a href="#contact" class="block text-gray-600 hover:bg-gray-100 hover:text-teal-600 px-3 py-2 rounded-md text-base font-medium">Contact</a>
+            <a href="#booking" class="block bg-teal-500 hover:bg-teal-600 text-white px-3 py-2 mx-2 rounded-md text-base font-medium btn-hover-effect text-center">Book Free Call</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="bg-gradient-to-r from-teal-500 to-cyan-600 text-white py-20 md:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+                Unlock Peak Performance with Expert Agile Coaching
+            </h1>
+            <p class="text-lg md:text-xl text-teal-100 mb-8 max-w-3xl mx-auto">
+                Providing tailored Agile coaching and training for leaders and teams across diverse industries, including Banking and FinTech.
+            </p>
+            <a href="#booking" class="bg-white text-teal-600 hover:bg-gray-100 font-semibold px-8 py-3 rounded-lg text-lg shadow-md btn-hover-effect">
+                Book a Free 15-Min Consultation
+            </a>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                Our Agile Coaching Services
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200 flex flex-col">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Expert One-to-One Agile Consulting</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Tailored coaching for individuals (leaders, managers, specific roles) seeking to enhance their Agile understanding, practices, and leadership skills. Ideal for targeted problem-solving and personal growth.
+                    </p>
+                    <p class="text-lg font-semibold text-teal-600 mb-4">$200 USD per hour</p>
+                    <a href="#" class="mt-auto text-center bg-teal-500 hover:bg-teal-600 text-white font-medium py-2 px-4 rounded-md btn-hover-effect">
+                        Request Consulting & Pay
+                        </a>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200 flex flex-col">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Bespoke Agile Training for Leaders & Squads</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Engaging, interactive training programs designed specifically for your organization's context. We cover foundational to advanced Agile principles, frameworks (Scrum, Kanban, etc.), and leadership practices.
+                    </p>
+                    <p class="text-lg font-semibold text-teal-600 mb-4">$900 USD per day <span class="text-sm font-normal text-gray-500">(excl. materials)</span></p>
+                     <a href="#contact" class="mt-auto text-center bg-cyan-500 hover:bg-cyan-600 text-white font-medium py-2 px-4 rounded-md btn-hover-effect">
+                        Discuss Your Training Needs
+                        </a>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200 flex flex-col">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Embedded Long-Term Team Coaching</h3>
+                    <p class="text-gray-600 mb-4 flex-grow">
+                        Partnering with your teams over an extended period to foster sustainable Agile practices, improve collaboration, enhance delivery flow, and build a culture of continuous improvement.
+                    </p>
+                    <p class="text-lg font-semibold text-teal-600 mb-4">$900 USD per day</p>
+                    <a href="#contact" class="mt-auto text-center bg-cyan-500 hover:bg-cyan-600 text-white font-medium py-2 px-4 rounded-md btn-hover-effect">
+                        Explore Team Engagement
+                         </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="coaches" class="py-16 md:py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6">
+                Meet Your Expert Coaches
+            </h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+                With over 16 years of combined experience, our coaches bring deep expertise and a passion for empowering teams and organizations through Agile principles.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+                <div class="text-center md:text-left flex flex-col md:flex-row items-center gap-6">
+                    <img src="https://placehold.co/150x150/a0aec0/ffffff?text=Coach+Jo" alt="Coach Jo Headshot" class="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-lg mx-auto md:mx-0 flex-shrink-0">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Coach Jo</h3>
+                        <p class="text-gray-600">
+                            8+ years of driving Agile transformations across multiple industries. Specializes in enterprise agility, leadership coaching, and navigating complex organizational change.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center md:text-left flex flex-col md:flex-row items-center gap-6">
+                     <img src="https://placehold.co/150x150/718096/ffffff?text=Coach+Suba" alt="Coach Suba Headshot" class="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-lg mx-auto md:mx-0 flex-shrink-0">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 mb-2">Coach Suba</h3>
+                        <p class="text-gray-600">
+                            8+ years focused on Agile transformation within the Banking and FinTech sectors. Proven success in coaching teams and leaders through complex digital and process changes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-16 md:py-24 bg-teal-700 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                Start Your Agile Journey Today
+            </h2>
+            <p class="text-lg text-teal-100 mb-6">
+                Ready to explore how Agile coaching can benefit you? Book a complimentary 15-minute consultation call with one of our expert coaches.
+            </p>
+            <p class="text-md font-semibold text-teal-50 mb-8">
+                Available Slots: Every Friday, 6:00 PM - 7:00 PM (Malaysia Time, GMT+8)
+            </p>
+            <a href="#" class="bg-white text-teal-700 hover:bg-gray-100 font-semibold px-8 py-3 rounded-lg text-lg shadow-md mb-10 inline-block btn-hover-effect">
+                Book Your Free Consultation Now
+                </a>
+
+            <div id="contact" class="mt-10 pt-10 border-t border-teal-600">
+                 <h3 class="text-2xl font-semibold mb-4 text-white">Or Contact Us Directly</h3>
+                 <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                    <a href="https://wa.me/60132250691" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-5 rounded-md btn-hover-effect">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.1-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                        WhatsApp Us (+60132250691)
+                    </a>
+                    <a href="mailto:contact@synergyagile.com" class="inline-flex items-center gap-2 bg-gray-600 hover:bg-gray-700 text-white font-medium py-2 px-5 rounded-md btn-hover-effect">
+                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm9.192-1.57l-5.803 3.558V4.697z"/>
+                        </svg>
+                        Email Us
+                        </a>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-400 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 Synergy Agile Coaching. All Rights Reserved.</p>
+            </div>
+    </footer>
+
+    <script>
+        // Basic Mobile Menu Toggle
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = document.querySelectorAll(".mobile-menu a");
+        mobileLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                 menu.classList.add("hidden");
+            });
+        });
+    </script>
+
+</body>
+</html>
